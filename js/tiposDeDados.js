@@ -23,9 +23,10 @@
     * ??? Voce sabia que possível aprender 80% de uma lingua nova, com cerca de 20% do vocabulário? (até menos...)  
 */ 
 
-/*  String
+/*  
+String
 
- * Cadeia de caracteres
+    => cadeia de caracteres
 
     ' ' => aspas simples 
     " " => aspas duplas
@@ -38,11 +39,62 @@ console.log("")
 
 /* 
 Number
-    * números
+    => números
 
     33 => inteiros
     12.5 => reais - floats
     NaN => Not a Number
     Infinity => infinito
 */
-console.log(12.5)
+console.log(33)
+
+/*
+Boolean
+    => somente 2 valores:
+        true // verdadeiro
+        false // falso
+
+*/
+console.log(false)
+
+/*
+ undefined
+    => indefinido
+ */
+
+/*
+ null
+    => nulo
+    => objeto que não possui nada dentro
+    => diferente de indefinido
+ */
+
+
+/*
+Object
+    => propriedades / atributos
+    => funcionalidades / métodos
+
+    { propriedade: "valor" }
+
+ */
+console.log({
+    nome: "Wendel",
+    idade: 18 - 19,
+    andar: function() {
+        console.log('andar')
+    }
+})
+
+/* 
+Array (Vetores)
+    => uma lista
+    => agrupamento de dados
+    ["Wendel", 18 - 19, "ando muito bem"]
+*/
+console.log([
+    "Leite",
+    "Ovos",
+    2,
+    3
+])
