@@ -7,5 +7,4 @@ isHumam = true
 console.log(age, isHumam, nome)
 
 // Concatenando e Interpolando variáveis
-
 console.log('O ' + nome + ' tem ' + age + ' anos!' )
