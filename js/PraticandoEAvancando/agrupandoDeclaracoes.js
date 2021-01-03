@@ -1,7 +1,11 @@
-let age, isHumam, name
+let age, isHumam, nome
 
-name = 'Wendel'
+nome = "Wendel"
 age = 19
 isHumam = true
 
-console.log(name, age, isHumam)
+console.log(age, isHumam, nome)
+
+// Concatenando e Interpolando variáveis
+
+console.log('O ' + nome + ' tem ' + age + ' anos!' )

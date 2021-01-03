@@ -1,7 +1,9 @@
 "use strict";
 
-var age, isHumam, name;
-name = 'Wendel';
+var age, isHumam, nome;
+nome = "Wendel";
 age = 19;
 isHumam = true;
-console.log(name, age, isHumam);
+console.log(age, isHumam, nome); // Concatenando e Interpolando variáveis
+
+console.log('O ' + nome + ' tem ' + age + ' anos!');
