@@ -54,4 +54,10 @@ students[1] = Jonh;
 console.log(students); //  9. Sem rodar código, responda qual é a resposta do código abaixo e por que? Após sua resposta, rode o código e veja se acertou.
 
 console.log(a);
-var a = 1; // Resp: undefined
+var a = 1;
+/* 
+    Resp: undefined
+    var a
+    console.log(a)
+    a = 1
+*/
