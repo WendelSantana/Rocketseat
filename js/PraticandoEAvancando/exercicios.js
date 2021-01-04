@@ -71,4 +71,9 @@ console.log(students)
 console.log(a)
 var a = 1
 
-// Resp: undefined
+/* 
+    Resp: undefined
+    var a
+    console.log(a)
+    a = 1
+*/
