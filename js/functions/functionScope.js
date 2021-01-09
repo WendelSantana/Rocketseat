@@ -1,7 +1,11 @@
 // function scope
 
-function soma(n1 = 0, n2 = 0) {
-    return n1 + n2
+let subject = 'create video'
+
+function  createThink() {
+    subject = 'study'
+    return subject
 }
 
-console.log(soma(2))
+console.log(createThink(subject))
+console.log(subject)
