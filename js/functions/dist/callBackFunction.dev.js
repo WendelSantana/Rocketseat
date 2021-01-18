@@ -1,8 +1,10 @@
 "use strict";
 
 // callback(chamar de volta) function
-function sayMyName(nome) {
-  console.log(nome);
+function sayMyName(name) {
+  console.log('Antes de executar a callback');
+  name();
+  console.log('Depois de executar a callback');
 }
 
 sayMyName(function () {
