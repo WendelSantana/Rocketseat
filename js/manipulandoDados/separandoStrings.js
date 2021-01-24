@@ -4,5 +4,5 @@
 
 let phrase = "Eu quero viver o Amor!"
 let myArray = phrase.split(" ") // o split troca o que for colocado como argumento
-let phraseWithUnderScore = MyArray.join("_") // o join vai junat o for colocado como argumento
-console.log(phraseWithUnderScore)
+let phraseWithUnderScore = myArray.join("_") // o join vai juntar o for colocado como argumento
+console.log(phraseWithUnderScore.toUpperCase())

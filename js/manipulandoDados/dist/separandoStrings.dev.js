@@ -5,6 +5,6 @@
 var phrase = "Eu quero viver o Amor!";
 var myArray = phrase.split(" "); // o split troca o que for colocado como argumento
 
-var phraseWithUnderScore = MyArray.join("_"); // o join vai junat o for colocado como argumento
+var phraseWithUnderScore = myArray.join("_"); // o join vai juntar o for colocado como argumento
 
-console.log(phraseWithUnderScore);
+console.log(phraseWithUnderScore.toUpperCase());
