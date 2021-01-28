@@ -13,19 +13,21 @@ console.log( one != two )
 console.log( one != "1" )
 
 // ===    estritamente igual 
-console.log( one === one )
+console.log( two === "2" ) // false
+console.log( two === 2 ) // true
 
 // !==   estritamente diferente 
-console.log( one !== one )
+console.log( one !== "1" ) // false 
+console.log( one !== 1 ) // true
 
 // >      maior quê
-console.log( one > two )
+console.log( one > two ) // false
 
 // >=     maior igual
-console.log( two >= one )
+console.log( two >= one ) // true
 
 // <      menor quê
-console.log( one < two )
+console.log( one < two ) // true
 
 // <=     menor igual
-console.log( one <= two )
+console.log( one <= two ) // true
