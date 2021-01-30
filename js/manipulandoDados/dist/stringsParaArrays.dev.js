@@ -1,6 +1,0 @@
-"use strict";
-
-// Manipulando Arrays
-// Transformar uma cadeia de caracteres em elementos de um array
-var word = "Manipulação";
-console.log(Array.from(word));
