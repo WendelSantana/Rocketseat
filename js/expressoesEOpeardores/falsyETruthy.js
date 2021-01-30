@@ -1,9 +1,10 @@
-"use strict";
-
 /*
  * Type conversion (typecasting) vs Type coercion 
 */
-console.log(Number('9') + 5);
+
+  console.log(Number('9') + 5)
+
+
 /* FALSY 
     Quando um valor é considerado false em contextos onde um booleano é obrigatório ( condicionais e loops )
 
@@ -19,7 +20,7 @@ console.log(Number('9') + 5);
 /* TRUTHY
     Quando um valor é considerado true em contextos onde um booleano é obrigatório ( condicionais e loops )
 
-    false
+    true
     {}
     []
     1
@@ -30,3 +31,5 @@ console.log(Number('9') + 5);
     Infinity
     -Infinity
 */
+
+console.log(3.23 ? 'verdadeiro' : 'falso')
